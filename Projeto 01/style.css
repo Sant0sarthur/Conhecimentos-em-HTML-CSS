@@ -1,0 +1,45 @@
+body{
+    font-family: 'Open Sans', sans-serif; /* Definindo font para o body */ 
+    text-align: center; /* Alinhando elemtnos ao centro da página */
+    margin: 0; /* Definindo margem como 0 */
+}
+
+#hero{
+    width: 592px; /* Definindo largura da div */
+    margin: 0px auto 72px; /* Definindo margens (top, right, botton, left; auto = right e left) */
+}
+#hero img{
+    margin-bottom: 72px;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 49px; /* Tamanho da font */
+    line-height: 56px; /* Altura da linha */
+    font-weight: normal; /* Peso da font (normal; bold) */
+    margin-bottom: 32px;
+}
+h1 spam{
+    font-weight: bold;
+}
+p, #footer{
+    color: #7d7987;
+    font-size: 14px;
+    line-height: 24px;
+}
+spam, a{
+    color: #FF9900;
+}
+
+#footer a + a{ /* Para todo a precedido de outro a */
+    margin-left: 28px;
+}
+
+#line{
+    width: 568px;
+    height: 0px;
+    margin: 0px auto 8px;
+
+    border: 1px #eceff2 solid;
+}
+  
