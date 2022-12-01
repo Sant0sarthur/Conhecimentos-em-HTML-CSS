@@ -1,8 +1,9 @@
 body{
-    margin: 0px;
-    font-family: 'Open Sans', sans-serif;
+    margin: 0px; 
+    font-family: 'Open Sans', sans-serif; /* Fonte geral */
+    /* Defininfo gradiente linear (angulo, 1º cor(rgba), 2º cor (rgba)) */
     background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
-    height: 100vh;
+    height: 100vh; /* Definindo altura da tela */
 }
 .main{
     width: 1000px;
@@ -12,11 +13,10 @@ body{
     
 }
 main{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;  
-
-    
+    display: flex; /* Display flex (originalmente é em block), flex permite 
+    que alinhe elementos um ao lado do outro. */
+    align-items: center; /* Alinhando todos ao centro. */
+    justify-content:space-between;  /* Define mesmo espaço entre elementos. */
 }
 nav{
     display: flex;
@@ -25,10 +25,10 @@ nav{
     margin-bottom: 55px;
 }
 ul{
-    margin: 0;
-    list-style: none;
+    margin: 0; 
+    list-style: none; /* Tira o estilo do menu */
     display: flex;
-    gap: 48px;
+    gap: 48px; /* define distacia entre elementos */
     padding: 0;
     font-family: 'Mulish', sans-serif;
 }
@@ -36,14 +36,13 @@ ul li a{
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    text-decoration: none;
+    text-decoration: none; /* Removento decoração de texto */
     color: #1F1534;
     opacity: 0.5;
 }
 ul li a:hover{
     font-weight: bold;
     opacity: 1.0;
-
 }
 h1{
     font-family: 'Mulish', sans-serif;
@@ -68,12 +67,12 @@ p{
 }
 button{
     color: white;
-    text-transform: uppercase;
+    text-transform: uppercase; /* Deixando texto em maiúsculo */
     font-family: 'Open Sans', sans-serif;
 
     background: #69B99D;
-    border-radius: 4px;
-    border: none;
+    border-radius: 4px; /* Arredondamento do botão */
+    border: none; /* Definindo borda */
 
     display: flex;
     justify-content: center;
@@ -82,7 +81,7 @@ button{
     padding: 14px 32px 15px;
     gap: 10px;
 
-    cursor: pointer;
+    cursor: pointer; /* Faz com que o ponteiro de click apareça naquela área. */
 }
 button:hover{
     background: #4c9279;
@@ -99,7 +98,7 @@ footer a{
     text-decoration: none;
 }
 #balls{
-    position: fixed;
+    position: fixed; /* Definindo posição fixa do elemento. */
     bottom: 0;
     right: 0 ;
 }
