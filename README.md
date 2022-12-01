@@ -4,5 +4,6 @@
 
 <h2>Projeto 01</h2>
 <h4> Decor, o melhor para sua casa </h4>
-![image](https://user-images.githubusercontent.com/84881858/204943870-b63f3f1b-58bb-40fc-af7d-c9bb90c7d8fb.png)
+![Captura de tela 2022-11-30 223153](https://user-images.githubusercontent.com/84881858/204944310-92bc441e-29ea-4fcf-95f0-64f4966651b3.png)
+
  <p>Projeto básico, apenas utilisando conceitos básicos de divs e alinhamento de elementos. </p>
